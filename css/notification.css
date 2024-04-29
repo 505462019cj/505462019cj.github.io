@@ -1,0 +1,45 @@
+.nav-right .info {
+  padding: 0;
+}
+.nav-right .info .not-read h2,
+.nav-right .info .have-read h2 {
+  font-size: 22px;
+  border-left: solid 3px #b0b3c0;
+}
+.nav-right .info .single-message {
+  padding: 0;
+  margin: 30px 40px 0;
+  padding: 15px;
+  border: #b0b3c0 solid 1px;
+  border-radius: 10px;
+  width: 900px;
+  height: 120px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.nav-right .info .single-message .message-header {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-right .info .single-message .message-header h5 {
+  font-weight: normal;
+  padding-bottom: 5px;
+  border-bottom: #b0b3c0 solid 1px;
+  width: 300px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.nav-right .info .single-message .message-header .time {
+  font-size: 16px;
+  text-align: right;
+}
+.nav-right .info .single-message p {
+  font-size: 14px;
+}
+.nav-right .info .have-read .single-message {
+  color: #b0b3c0;
+}
+.nav-right .info .single-message:hover {
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}

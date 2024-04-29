@@ -1,0 +1,30 @@
+.team_container {
+    width: 98%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 80px;
+
+}
+
+.image1 {
+    width: 98%;
+    margin-left: 15px;
+}
+
+.introduce {
+    top: 920px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    height: 1000px;
+}
+
+.image2 {
+    width: 97%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .5);
+}

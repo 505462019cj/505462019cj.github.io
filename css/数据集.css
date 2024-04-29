@@ -1,0 +1,97 @@
+.sample_set {
+
+    margin: 20px 20px;
+
+
+}
+
+.test_image_container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 98%;
+}
+
+.sample_set_box2_j {
+    top: 80px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.sample_set_h3 {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 195, 227);
+    border-radius: 30px;
+}
+
+.j_sample_box {
+    position: absolute;
+    top: 600px;
+    display: flex;
+    justify-content: center;
+    width: 98%;
+}
+
+.sample_set_container1 {
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.test_table {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    width: 480px;
+    height: 280px;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+
+
+}
+
+.test_image {
+    width: 200px;
+    height: 150px;
+    margin: 3px;
+}
+
+.tset_image_a {
+    margin-top: 20px;
+}
+
+.test_table2 {
+    /* border: 2px solid rgb(122, 144, 143); */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    width: 380px;
+    height: 380px;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+
+
+}
+
+.training_image {
+    width: 130px;
+    height: 130px;
+    margin: 7px;
+
+}
+
+
+.sample_set_box2 {
+    float: left;
+    margin-left: 100px;
+    height: 600px;
+}
+
+.sample_set_box1 {
+    float: left;
+}

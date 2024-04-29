@@ -1,0 +1,23 @@
+.images_h3 {
+
+    margin: 10px 130px;
+
+}
+
+.images_set {
+
+    margin: 0px 260px;
+
+
+}
+
+.images_li {
+    margin: 20px;
+    float: left;
+}
+
+.images_size {
+    width: 400px;
+    height: 300px;
+
+}

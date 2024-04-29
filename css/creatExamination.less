@@ -1,0 +1,92 @@
+//
+
+//右边部分
+.nav-right{
+    .info{
+        form{
+            span{
+                width: 120px;
+                text-align: right;
+                display: inline-block;
+                margin-bottom: 25px;
+            }
+            input[type='text'],select{
+                width: 200px;
+                height: 28px;
+                border: solid 1px #b0b3c0;
+                border-radius: 5px;
+                padding: 0 10px;
+                margin-top: 10px;
+                transition: all .3s;
+                letter-spacing: 1px;
+
+            }
+            input[type='radio']{
+                height: 100%;
+                line-height: 15px;
+                margin-right: 10px;
+                transition: all .3s;
+
+
+            }
+            input:hover,select:hover{
+                box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+                transition: all .3s;
+
+            }
+            input:focus,select:focus { 
+                border: #97b4e6 solid 2px;
+                box-shadow: 1px 1px 1px 1px rgba(134, 222, 235, 0.1);
+                transition: all .3s;
+
+
+            } 
+
+            #time{
+                width: 50px;
+            }
+
+            .detail{
+                text-align: left;
+                font-size: 16px;
+            }
+            .exam-name-tip{
+                color: #b0b3c0;
+                font-size: 16px;
+                margin-left: 30px;
+                width: auto;
+            }
+            .tip-block{
+                margin-left: 126px;
+                padding: 15px;
+                background-color: #fcfcfc;
+                width: 800px;
+                font-size: 16px;
+                line-height: 30px;
+                color: #b0b3c0;
+                box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+            }
+            .confirm{
+                display: inline-block;
+                right: 0;
+                width: 92px;
+                height: 36px;
+                box-shadow: 0 3px 12px 0 rgba(39,125,255,0.30);
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                line-height: 36px;
+                border-radius: 20px;
+                margin-left: 840px;
+                margin-top: 10px;
+                transition: all .5s;
+                background: linear-gradient(72deg,rgba(5,120,255,1) 0%,rgba(0,177,255,1) 50%,rgba(0,177,255,1) 100%);
+                background-size: 200%;
+                transition: background-position .3s;
+                &:hover{
+                    background-position: 100% 0;
+                }
+            }    
+        }      
+    }
+}

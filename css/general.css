@@ -1,0 +1,194 @@
+.total-cover {
+  z-index: 10000;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.total-cover .message-box {
+  overflow: auto;
+  background-color: #fcfcfc;
+  width: 1200px;
+  height: 600px;
+  margin: 50px auto;
+  padding: 50px;
+}
+.total-cover .message-box h1 {
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #b0b3c0;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+.total-cover .message-box p {
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+.total-cover button {
+  width: 92px;
+  height: 36px;
+  box-shadow: 0 3px 12px 0 rgba(39, 125, 255, 0.3);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 20px;
+  margin-left: 993px;
+  margin-top: 10px;
+  transition: all 0.5s;
+  background: linear-gradient(72deg, #0578ff 0%, #00b1ff 50%, #00b1ff 100%);
+  background-size: 200%;
+  transition: background-position 0.3s;
+}
+.total-cover button:hover {
+  background-position: 100% 0;
+}
+.nav-left {
+  z-index: 1000;
+  overflow: auto;
+  position: fixed;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+  width: 240px;
+  padding: 50px 0;
+  background-color: #2c303c;
+  height: 100%;
+}
+.nav-left .nav-logo-top {
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top: 50px;
+  width: 240px;
+  background-color: #2c303c;
+}
+.nav-left .nav-logo-top img {
+  width: 80px;
+}
+.nav-left .nav-logo-top .name {
+  margin: 12px;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.nav-left .nav-list {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.nav-left .nav-list li a {
+  line-height: 60px;
+  color: #b0b3c0;
+  font-size: 18px;
+  display: block;
+  padding: 0 50px;
+  border-radius: 0 30px 30px 0;
+  height: 60px;
+  transition: 0.5s;
+}
+.nav-left .nav-list li i {
+  font-size: 20px;
+  margin-right: 15px;
+}
+.nav-left .nav-list a:hover {
+  color: white;
+  transition: 0.5s;
+}
+.nav-left .nav-list .current {
+  animation: changeColor 0.5s forwards;
+}
+.nav-left .nav-bottom {
+  padding: 15px;
+  position: fixed;
+  width: 240px;
+  left: 0;
+  bottom: 0;
+  background-color: #2c303c;
+  border-top: #313743 solid 1px;
+  color: #b0b3c0;
+}
+.nav-left .nav-bottom img {
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.nav-left .nav-bottom .name {
+  font-size: 17px;
+  border-right: solid 1px #b0b3c0;
+  padding-right: 10px;
+  margin-right: 15px;
+}
+.nav-left .nav-bottom .more1 #arrow {
+  position: relative;
+  cursor: pointer;
+}
+.nav-left .nav-bottom .more1 ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  left: 160px;
+  bottom: 40px;
+  background-color: #fcfcfc;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+}
+.nav-left .nav-bottom .more1 ul li {
+  cursor: pointer;
+  width: 110px;
+  height: 35px;
+  color: #313743;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 10px;
+}
+.nav-left .nav-bottom .more1 ul li:hover {
+  background-color: #0152d9;
+  color: white;
+  transition: 0.5s;
+}
+.nav-right {
+  animation: appear 1s forwards;
+  margin-left: 240px;
+}
+.nav-right .header {
+  padding: 25px;
+  background-color: #f3f3f3;
+  font-size: 18px;
+  line-height: 18px;
+  min-width: 800px;
+}
+.nav-right .header i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.nav-right .header .create {
+  color: #0152d9;
+}
+.nav-right h2 {
+  min-width: 500px;
+  margin-top: 50px;
+  margin-left: 25px;
+  border-left: solid 5px #0152d9;
+  font-size: 30px;
+  font-weight: normal;
+  padding-left: 15px;
+  letter-spacing: 1px;
+}
+.nav-right h2 i {
+  font-size: 30px;
+  margin-right: 5px;
+}
+.nav-right .info {
+  min-width: 800px;
+  padding-left: 80px;
+  padding-top: 50px;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 18px;
+  border-top: solid 1px #f3f3f3;
+}

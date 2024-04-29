@@ -1,0 +1,54 @@
+.images_h3 {
+
+    margin: 10px 130px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+
+}
+
+.images_h3_box {
+    width: 98%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.images_set {
+
+    /* margin: 0px 260px; */
+    width: 98%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 330px;
+    height: 500px;
+
+
+}
+
+.images_li {
+    margin: 15px;
+    float: left;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .6);
+}
+
+.images_size {
+    width: 340px;
+    height: 280px;
+
+}
+
+.images_box {
+    /* border: 2px solid rgb(122, 144, 143); */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, .5); */
+    width: 98%;
+    height: 280px;
+    text-align: center;
+    /* padding: 20px; */
+    clear: both;
+}

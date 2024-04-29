@@ -1,0 +1,72 @@
+.data_result {
+    top: 600px;
+    width: 198%;
+    height: 100px;
+}
+
+
+.sample_set {
+
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+
+
+
+}
+
+.picutre_display {
+    top: 200px;
+    width: 98%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.p_size {
+    font-size: 20px;
+}
+
+.images1 {
+    width: 500px;
+    /* height: 300px; */
+    background-repeat: no-repeat;
+    background-size: 80%;
+    /* margin: 0px 450px; */
+    top: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .5);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.images2 {
+    width: 330px;
+
+    background-repeat: no-repeat;
+    background-size: 80%;
+
+    top: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .5);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.inspection_result1_box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 550px;
+    width: 500px;
+}
+
+.inspection_result4_box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 550px;
+    width: 500px;
+}
